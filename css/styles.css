@@ -10,7 +10,6 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -48,7 +47,6 @@ body {
 
 .navigation a {
   text-decoration: none;
-  text-transform: none;
   font-weight: 500;
 
   color: var(--titel-text-color);
@@ -57,7 +55,6 @@ body {
 .contacts a {
   font-style: normal;
   text-decoration: none;
-  text-transform: none;
 
   color: var(--primery-text-color);
 }
@@ -78,7 +75,6 @@ body {
 }
 
 .hero > h1 {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -131,7 +127,8 @@ body {
   overflow: hidden;
 }
 
-.advantages .advantages-titel {
+.advantages .advantages-titel,
+.team-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -139,11 +136,9 @@ body {
   color: var(--titel-text-color);
 }
 
-.opportunities,
-.title-team {
-  font-weight: 700;
+.section-title {
   font-size: 36px;
-  line-height: 1.11px;
+  line-height: 1.11;
 
   text-align: center;
   text-transform: capitalize;
@@ -170,7 +165,7 @@ body {
   color: var(--secondary-accent-color);
 }
 
-.samples-title {
+.project-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
